@@ -1,0 +1,122 @@
+.card {
+  width: 50%;
+}
+
+.container-fluid{
+  // background-image: url(/assets/covidVaccine.jpg);
+  background-color: #EAC696;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  // height: 100vh;
+  height: 100%;
+
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   /* Full screen height */
+//   width: 100vw; /* Full screen width */
+}
+
+.flex-container > .card {
+  background-color: rgba(0, 0, 0, 0.8); /* Slight transparency */
+  margin: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+  color: white;
+}
+
+.card-body h2{
+    text-align: center;
+    color: white;
+}
+.card-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btn-group {
+    display: flex;
+    gap: 1rem; /* Space between buttons */
+    width: 50%;
+    margin-left: 30%;
+    justify-content: center;
+  }
+
+.box-container {
+  display: flex;
+  align-items: stretch;
+  margin-top: 30px;
+}
+
+.box-container > div {
+  color: black;
+  margin: 2px;
+  text-align: center;
+  line-height: 75px;
+}
+
+#table1 th{
+  color: white;
+  background-color: #65451F;
+}
+
+#table2 th{
+  color: white;
+  background-color: #65451F;
+}
+
+#table3 th{
+  color: white;
+  background-color: #65451F;
+}
+
+#table1 td,#table2 td,#table3 td{
+  color: white;
+  background-color: #765827;
+}
+
+.table-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin-top: 55px;
+}
+
+.table-wrapper {
+  flex-grow: 4;
+  margin-right: 20px; /* Adjust spacing between tables */
+  text-align: center;
+  margin: 2px;
+  text-align: center;
+  line-height: 50px;
+}
+
+
+/* Media query for tablets and smaller screens */
+@media (max-width: 768px) {
+  .box {
+    flex-grow: 1; /* Adjust to fit smaller screens */
+    margin-right: 0; /* Remove spacing between boxes */
+    margin-bottom: 20px; /* Optional: Add margin-bottom for spacing */
+  }
+
+  .card {
+    width: 90%;
+  }
+
+
+}
+
